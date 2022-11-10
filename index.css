@@ -23,7 +23,6 @@ img.navi{
     display:block;
     z-index: 2500;
     cursor:pointer;
-    opacity:0;
 }
 #next{
     top:300px;
@@ -31,7 +30,7 @@ img.navi{
     display: block;
     z-index: 2500;
     cursor:pointer;
-    opacity: 0;
+    
 }
 img{
     border-radius: 20px;
@@ -41,7 +40,9 @@ img{
     top:50px;
 
 }
-
+#show{
+    opacity:0.5;
+}
 
 #slide1 {
 z-index:2500;
@@ -52,7 +53,7 @@ animation-direction: alternate;
 #slide2 {
     z-index:2450;
     animation-name: carousel stop;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 #slide3 {
     z-index:2400;
